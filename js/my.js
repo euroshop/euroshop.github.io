@@ -6,10 +6,10 @@ $(function() {
 		var hash = this.hash;
 
 		$('html, body').stop().animate(
-			{scrollTop: $(hash).offset().top},
+			{ scrollTop: $(hash).offset().top },
 			1000,
-			'easeInOutSine',
-			function() { window.location.hash = hash; }
+			'easeInOutSine'
+//			function() { window.location.hash = hash; }
 		);
 
 		event.preventDefault();

@@ -1,0 +1,6 @@
+url: "http://euroshop.github.io"
+name: "Europa-Shopping site"
+description: "Super site about shopping european goods"
+
+markdown: rdiscount
+permalink: pretty

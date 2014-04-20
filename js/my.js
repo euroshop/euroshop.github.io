@@ -6,7 +6,7 @@ $(function() {
 		var target = $('a[name=' + name + ']');
         $('html, body').stop().animate({
             scrollTop: target.offset().top
-        }, 1000, 'easeInOutExpo');
+        }, 1000, 'easeInOutSine');
         event.preventDefault();
     });
 });

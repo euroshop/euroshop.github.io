@@ -10,7 +10,7 @@ $(function() {
 		$('html, body').stop().animate(
 			{ scrollTop: top },
 			1000,
-			'easeInOutCubic',
+			'easeInOutCubic'
 //			function() { window.location.hash = hash; }
 		);
 

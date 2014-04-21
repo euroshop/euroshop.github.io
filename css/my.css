@@ -2,6 +2,18 @@ body {
   padding-top: 50px;
 }
 
+#top {
+	padding: 40px 0 0 0;
+	height: 500px;
+	background: url("/img/top.jpg") no-repeat 50% 0%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#logo { width: 100%; }
+
 h1 { margin: 0; text-align: center; }
 h1:after {
 	content: "",
@@ -9,18 +21,6 @@ h1:after {
 	width: 33%;
 	border-top: 4px;
 	border-color: rgba(0,0,0,.5);
-}
-
-#logo { width: 100%; }
-#top {
-	padding: 40px 0 0 0;
-	height: 500px;
-	background: url("/img/top.jpg") no-repeat 50% 50%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 .block { padding: 1em 0em; }

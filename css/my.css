@@ -1,27 +1,36 @@
 body { font-family: Georgia, serif, sans; font-size: 20px; color: #666; }
+@media (max-width: 480px) {
+	body {font-size: 16px; }
+}
+
+.container a:hover { color: inherit; }
 
 h1 { font-size: 200%; }
 
 img { max-width: 100%; }
 
-body {
-  padding-top: 50px;
-}
-
+body { padding-top: 50px; }
 #top { background: url("/img/background.jpg") no-repeat 0% 0%; background-size: 100% 100%; }
-#logo img { width: 100%; padding: 20px 0 40px 0; }
+#logo img { width: 100%; padding: 40px 0 40px 0; }
 #girl img { width: 100%; padding: 40px 0 0 0; }
 
-h1 { margin: 0; text-align: center; }
-h1:after { content: ""; display: block; position: relative; left: 40%; width: 20%; margin: .5em 0 1em 0; border-bottom: 4px solid rgba(0,0,0,.33); }
+h1 { margin: 0; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.33); }
+h1:after { content: ""; display: block; position: relative; left: 40%; width: 20%; margin: .5em 0 1em 0; border-bottom: 4px solid rgba(0,0,0,.25); }
 
-.block { padding: 2em 0; }
+.block { padding: 2.5em 0; }
 
-.clr * { color: #fff; }
-.clr h1:after { border-color: rgba(255,255,255,.5); }
-
-.clr.clr1 { background: #07f; }
-.clr.clr2 { background: #f70; }
+.block-clr1 *, .block-clr2 * { color: #fff; }
+.block-clr1 h1:after, .block-clr2 h1:after { border-color: rgba(255,255,255,.5); }
+.block-clr1 { background-color: #07f; }
+.block-clr2 { background-color: #f70; }
+.block-clr1, .block-clr2 {
+	background-image: url("/img/fringe.png"), url("/img/block.png");
+	background-position: center bottom, center top;
+	background-repeat: repeat-x, repeat;
+	padding-bottom: 4em;
+}
 
 .fun { text-align: center; }
+
+.contacts { list-style: none; padding-left: 0; font-size: 150%; line-height: 1.7; text-align: center; }
 

@@ -1,7 +1,4 @@
 body { font-family: Georgia, serif, sans; font-size: 20px; color: #666; }
-@media (max-width: 480px) {
-	body {font-size: 16px; }
-}
 
 h1 { font-size: 200%; }
 
@@ -36,3 +33,10 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 
 .contacts  { text-align: center; }
 .contacts ul { display: inline-block; text-align: left; list-style: none; padding-left: 0; font-size: 150%; line-height: 1.6; }
+
+
+
+@media (max-width: 480px) {
+	body {font-size: 16px; }
+	#logo img { padding: 20px 0 30px 0; }
+}

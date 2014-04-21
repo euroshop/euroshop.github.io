@@ -2,5 +2,6 @@ url: "http://euroshop.github.io"
 name: "Europa-Shopping site"
 description: "Super site about shopping european goods"
 
+encoding: UTF-8
 markdown: rdiscount
 permalink: pretty

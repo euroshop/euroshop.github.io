@@ -5,16 +5,11 @@ body {
 }
 
 #top {
-	padding: 40px 0 0 0;
-	height: 500px;
-	background: url("/img/top.jpg") no-repeat 50% 0%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	background: url("/img/background.jpg") no-repeat 0% 0%;
+    background-size: 100% 100%;
 }
-#logo { width: 400px; }
+#logo img { width: 100%; padding: 50px 0 50px 0; }
+#girl img { width: 100%; padding: 50px 0 0 0; }
 
 h1 { margin: 0; text-align: center; }
 h1:after {

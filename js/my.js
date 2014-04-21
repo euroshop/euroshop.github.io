@@ -3,8 +3,7 @@ $(function() {
 	$('body').scrollspy({ target: '.inner_page_nav' })
 
 	$("a[href^='#']").bind('click', function(event) {
-		var hash = this.hash;
-		var top = $(hash.length > 1 ? hash : 'body').offset().top;
+		var top = $(this.hash.length <= 1 ? 'body' : this.hash).offset().top;
 
 		$('html, body').stop().animate(
 			{ scrollTop: top },

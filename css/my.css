@@ -5,6 +5,14 @@ body {
 h1 { margin: 0;}
 h1:after { margin: 0.5em 0 1em 0; width: 33%; border-bottom: 2px; border-color: rgba(0,0,0,.5); }
 
+#logo { width: 100%; }
+#top {height: 500px; background: url("/img/top.jpg") no-repeat 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 block { padding: 1em 0em; }
 
 clr { font-color: #fff; }

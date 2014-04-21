@@ -25,7 +25,7 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 .block-clr2 { background-color: #f70; }
 .block-clr1, .block-clr2 {
 	background-image: url("/img/fringe.png"), url("/img/block.png");
-	background-position: center bottom, center top;
+	background-position: left bottom, left bottom;
 	background-repeat: repeat-x, repeat;
 	padding-bottom: 4em;
 }

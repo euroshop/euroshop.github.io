@@ -9,7 +9,7 @@ $(function() {
 			{ scrollTop: top },
 			1000,
 			'easeInOutCubic',
-			finction() { window.location.hash = hash; }
+			function() { window.location.hash = hash; }
 		);
 		
 		event.preventDefault();

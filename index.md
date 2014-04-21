@@ -3,7 +3,6 @@ title: Hello, World!
 layout: default
 ---
 
-<a name="intro"></a>
 <section id="intro">
 # Hello World
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
@@ -13,7 +12,6 @@ Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis fe
 Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna.
 </section>
 
-<a name="second"></a>
 <section id="second">
 # Second
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
@@ -23,7 +21,6 @@ Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis fe
 Donec libero libero, bibendum non condimentum ac, ullamcorper at sapien. Duis feugiat urna vel justo cursus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna. sus facilisis. Vivamus ligula dui, convallis a varius vitae, facilisis eget magna.
 </section>
 
-<a name="third"></a>
 <section id="third">
 # Third
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero. Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.

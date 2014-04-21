@@ -8,14 +8,14 @@ $(function() {
 		}
 		
 		var hash = $(this).attr('href');
-		history.pushState(null, null, hash);
-		
 		var top = $(hash.length > 1 ? hash : 'body').offset().top;
 		$('html, body').stop().animate(
 			{ scrollTop: top },
 			1000,
-			'easeInOutCubic'
+			'easeInOutCubic',
+			function() { history.pushState(null, null, hash); }
 		);
+		
 		event.preventDefault();
 	});
 });

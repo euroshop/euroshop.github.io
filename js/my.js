@@ -4,12 +4,15 @@ $(function() {
 
 	$("a[href^='#']").bind('click', function(event) {
 		var hash = $(this).attr('href');
+		if(history.pushState) {
+			history.pushState(null, null, hash);
+		}
+		
 		var top = $(hash.length > 1 ? hash : 'body').offset().top;
 		$('html, body').stop().animate(
 			{ scrollTop: top },
 			1000,
-			'easeInOutCubic',
-			function() { window.location.hash = hash; }
+			'easeInOutCubic'
 		);
 		
 		event.preventDefault();

@@ -9,11 +9,9 @@ $(function() {
 		$('html, body').stop().animate(
 			{ scrollTop: top },
 			1000,
-			'easeInOutCubic'
+			'easeInOutCubic',
+			function() { window.location.hash = hash; }
 		);
-
-		//function() { window.location.hash = hash; }
-		window.location.hash = hash;
 
 		event.preventDefault();
 	});

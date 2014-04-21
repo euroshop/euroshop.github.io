@@ -8,7 +8,8 @@ $(function() {
 		$('html, body').stop().animate(
 			{ scrollTop: top },
 			1000,
-			'easeInOutCubic'
+			'easeInOutCubic',
+			window.location.hash = hash
 		);
 		
 		event.preventDefault();

@@ -4,7 +4,13 @@ $(function() {
 
 	$("a[href^='#']").bind('click', function(event) {
 		var hash = $(this).attr('href');
-		var top = $(hash.length <= 1 ? 'body' : hash).offset().top;
+		var top;
+		if (hash.length <= 1) {
+			hash = "";
+			top = $("body").offset().top;
+		} else {
+			top = $(hash).offset().top;
+		}
 
 		$('html, body').stop().animate(
 			{ scrollTop: top },

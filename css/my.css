@@ -2,4 +2,14 @@ body {
   padding-top: 50px;
 }
 
-h1 { padding-top: 2em; }
+h1 { margin: 0;}
+h1:after { margin: 0.5em 0 1em 0; width: 33%; border-bottom: 2px; border-color: rgba(0,0,0,.5); }
+
+block { padding: 1em 0em; }
+
+clr { font-color: #fff; }
+clr.h1:after { border-color: rgba(255,255,255,.5); }
+
+clr.clr1 { background: #07f; }
+clr.clr2 { background: #f70; }
+

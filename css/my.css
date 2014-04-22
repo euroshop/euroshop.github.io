@@ -12,29 +12,36 @@ body { padding-top: 50px; }
 #logo img { width: 100%; padding: 40px 0 40px 0; }
 #girl img { width: 100%; padding: 40px 0 0 0; }
 
+.navbar { box-shadow: 0 5px 5px rgba(0,0,0,.25); }
 .navbar-brand .fa { font-size: 150%; }
 
-h1 { margin: 0; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.33); }
+h1 { margin: 2em 0 0 0; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,.33); }
 h1:after { content: ""; display: block; position: relative; left: 40%; width: 20%; margin: .5em 0 1em 0; border-bottom: 4px solid rgba(0,0,0,.25); }
 
-.block { padding: 1.5em 0;}
 .block-clr1, .block-clr2 {
-	margin: 0 0 2em 0;
-	padding: 2em 0 3.5em 0;
+	padding-bottom: 3.5em;
 	background-image: url("/img/fringe.png"), url("/img/block.png");
 	background-position: left bottom, left bottom;
 	background-repeat: repeat-x, repeat;
+	box-shadow: 0 -5px 5px rgba(0,0,0,.25);
+	position: relative;
 }
 .block-clr1 *, .block-clr2 * { color: #fff; }
+.block-clr1 h1, .block-clr2 h1 { margin-top: 1em; }
 .block-clr1 h1:after, .block-clr2 h1:after { border-color: rgba(255,255,255,.5); }
 .block-clr1 { background-color: #07f; }
 .block-clr2 { background-color: #f70; }
 
-.fun { text-align: center; }
+.fun { text-align: center; margin-top: 2em; }
 
 .contacts  { text-align: center; }
-.contacts ul { display: inline-block; text-align: left; list-style: none; padding-left: 0; font-size: 150%; line-height: 1.6; }
-.contacts .fa{ width: 1.5em; margin-right: 0.5em; text-align: center; }
+.contacts ul { display: inline-block; text-align: left; list-style: none; padding-left: 0; font-size: 140%; line-height: 1.6; }
+.contacts .fa{ width: 1.5em; margin-right: .5em; text-align: center; }
+
+.steps { margin: 2em 0em; padding: 2em 0 1em 0; border: 2px dashed rgba(255,255,255,.5); border-left: none; border-right: none; }
+.steps .numbering, .steps .description { margin-bottom: 1em; }
+.steps .numbering span { display: block; margin: 0 auto; font-size: 400%; color: #07f; text-align: center; width: 1.3em; height: 1.3em; line-height: 1.2em; border-radius: 50%; background: #fff; box-shadow: inset 5px 5px 10px rgba(0,0,0,.33); text-shadow: 2px 2px 4px rgba(0,0,0,.33); }
+
 
 
 @media (max-width: 480px) {

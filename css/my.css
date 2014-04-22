@@ -9,7 +9,7 @@ img { max-width: 100%; }
 
 body { padding-top: 50px; }
 #top { background: url("/img/background.jpg") no-repeat 0% 0%; background-size: 100% 100%; }
-#logo img { width: 100%; padding: 40px 0 40px 0; }
+#logo img { width: 100%; padding-bottom: 30px; }
 #girl img { width: 100%; padding: 40px 0 0 0; }
 
 .navbar { box-shadow: 0 5px 5px rgba(0,0,0,.25); }
@@ -32,7 +32,7 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 .block-clr1 { background-color: #07f; }
 .block-clr2 { background-color: #f70; }
 
-.fun { text-align: center; margin-top: 2em; }
+.fun { margin-top: 4em; text-align: center; }
 
 .contacts  { text-align: center; }
 .contacts ul { display: inline-block; text-align: left; list-style: none; padding-left: 0; font-size: 140%; line-height: 1.6; }
@@ -42,10 +42,10 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 .steps .numbering, .steps .description { margin-bottom: 1em; }
 .steps .numbering span { display: block; margin: 0 auto; font-size: 400%; color: #07f; text-align: center; width: 1.3em; height: 1.3em; line-height: 1.2em; border-radius: 50%; background: #fff; box-shadow: inset 5px 5px 10px rgba(0,0,0,.33); text-shadow: 2px 2px 4px rgba(0,0,0,.33); }
 
-
+.goods { margin-top: 2em; text-align: center; }
+.goods img { max-width: 200px; width: 100%; margin-bottom: 2em; }
 
 @media (max-width: 480px) {
 	body {font-size: 14px; }
-	#logo img { padding: 20px 0 30px 0; }
 	.container-fluid { padding: 0 1em;}
 }

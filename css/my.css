@@ -12,7 +12,7 @@ body { padding-top: 50px; }
 #logo img { width: 100%; padding: 40px 0 40px 0; }
 #girl img { width: 100%; padding: 40px 0 0 0; }
 
-.navbar-brand .fa { font-size: 125%; }
+.navbar-brand .fa { font-size: 150%; }
 
 h1 { margin: 0; text-align: center; text-shadow: 2px 2px 4px rgba(0,0,0,0.33); }
 h1:after { content: ""; display: block; position: relative; left: 40%; width: 20%; margin: .5em 0 1em 0; border-bottom: 4px solid rgba(0,0,0,.25); }
@@ -34,7 +34,7 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 
 .contacts  { text-align: center; }
 .contacts ul { display: inline-block; text-align: left; list-style: none; padding-left: 0; font-size: 150%; line-height: 1.6; }
-.contacts .fa{ padding-right: 0.5em; }
+.contacts .fa{ width: 1.5em; margin-right: 0.5em; text-align: center; }
 
 
 @media (max-width: 480px) {

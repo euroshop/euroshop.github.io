@@ -42,8 +42,8 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 .steps .numbering, .steps .description { margin-bottom: 1em; }
 .steps .numbering span { display: block; margin: 0 auto; font-size: 400%; color: #07f; text-align: center; width: 1.3em; height: 1.3em; line-height: 1.2em; border-radius: 50%; background: #fff; box-shadow: inset 5px 5px 10px rgba(0,0,0,.33); text-shadow: 2px 2px 4px rgba(0,0,0,.33); }
 
-.goods { margin-top: 2em; text-align: center; }
-.goods img { max-width: 200px; width: 100%; margin-bottom: 2em; }
+.goods div { margin-top: 2em; text-align: center; }
+.goods img { max-width: 400px; width: 100%; margin-bottom: 2em; }
 
 .logos { text-align: center; }
 .logos img { vertical-align: middle; width: 125px; max-width: 35%; margin: 1em; }

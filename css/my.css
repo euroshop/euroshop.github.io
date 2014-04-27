@@ -45,7 +45,7 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 .goods { margin-top: 2em; text-align: center; }
 .goods img { max-width: 200px; width: 100%; margin-bottom: 2em; }
 
-.logos { text-align: center; margin: 2em 0;}
+.logos { text-align: center; }
 .logos img { vertical-align: middle; width: 125px; max-width: 35%; margin: 1em; }
 
 @media (max-width: 480px) {

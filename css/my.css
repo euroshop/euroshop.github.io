@@ -1,11 +1,11 @@
 body { font-family: Georgia, serif, sans; font-size: 20px; color: #666; }
+.container-fluid { max-width: 992px; padding: 0 3em;}
 
 h1 { font-size: 200%; }
-
 img { max-width: 100%; }
-.container-fluid a:hover { color: inherit; }
-
-.container-fluid { max-width: 992px; padding: 0 3em;}
+a { text-decoration: underline; }
+a:hover { color: inherit; }
+.nav a { text-decoration: none; }
 
 body { padding-top: 50px; }
 #top { background: url("/img/background.jpg") no-repeat 0% 0%; background-size: 100% 100%; }
@@ -47,6 +47,8 @@ h1:after { content: ""; display: block; position: relative; left: 40%; width: 20
 
 .logos { text-align: center; }
 .logos img { vertical-align: middle; width: 125px; max-width: 35%; margin: 1em; }
+
+.conditions li { margin-bottom: 0.5em; }
 
 @media (max-width: 480px) {
 	body {font-size: 14px; }
